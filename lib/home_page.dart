@@ -136,7 +136,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     child: Text(
                       generatedContent == null
-                          ? "Good Morning, What task can i do for you :)"
+                          ? "Hallo Selamat Datang Di ROOTSEC BOT :)"
                           : generatedContent!,
                       style: const TextStyle(
                         color: Pallete.mainFontColor,
@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
                       color: Pallete.firstSuggestionBoxColor,
                       headerText: 'Chat-GPT',
                       descriptionText:
-                          'Best and Smartest answers on the Internet answered by GPT-3.5',
+                          'Jawaban terbaik dan terpintar di Internet dijawab oleh GPT-3.5',
                     ),
                   ),
                   SlideInLeft(
@@ -198,7 +198,7 @@ class _HomePageState extends State<HomePage> {
                       color: Pallete.secondSuggestionBoxColor,
                       headerText: 'DALL-E',
                       descriptionText:
-                          "Where Words Paint Visual Worlds, An AI Artist at Your Command!",
+                          "Dimana Kata-kata Melukiskan Dunia Visual, Seniman AI Sesuai Perintah Anda!",
                     ),
                   ),
                   SlideInLeft(
@@ -207,7 +207,7 @@ class _HomePageState extends State<HomePage> {
                       color: Pallete.thirdSuggestionBoxColor,
                       headerText: 'Voice Assistant',
                       descriptionText:
-                          "Transforming words into actions, one command at a time powered by ChatGPT",
+                          "Mengubah kata menjadi tindakan, satu perintah pada satu waktu didukung oleh ChatGPT",
                     ),
                   ),
                 ],
